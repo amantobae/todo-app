@@ -1,0 +1,171 @@
+## Color System
+
+The application must use a premium dark cyber-modern design.
+
+Primary Brand Color:
+
+* Acid Green: #B6FF00
+
+Secondary Accent:
+
+* Neon Green: #8DFF2F
+
+Background Colors:
+
+* Deep Purple: #12091F
+* Dark Violet: #1A102B
+* Surface Purple: #24163B
+
+Card Colors:
+
+* #221537
+* #2A1A44
+
+Text Colors:
+
+* Primary: #F5F5F7
+* Secondary: #B7B5C5
+* Muted: #8D8A9E
+
+Success:
+
+* #00FF88
+
+Warning:
+
+* #FFB800
+
+Error:
+
+* #FF4D6D
+
+---
+
+## Visual Style
+
+The UI should feel like:
+
+* Cyberpunk
+* Linear App
+* Arc Browser
+* Spotify Premium
+* Modern SaaS Dashboard
+
+Avoid:
+
+* Bright white backgrounds
+* Material 3 default colors
+* Generic Flutter themes
+* Flat designs without depth
+
+Prefer:
+
+* Deep dark violet backgrounds
+* Neon green accents
+* Soft gradients
+* Glassmorphism effects
+* Blur effects
+* Floating cards
+* Glow highlights
+
+---
+
+## Gradients
+
+Use subtle gradients frequently.
+
+Primary Gradient:
+
+#B6FF00 → #8DFF2F
+
+Background Gradient:
+
+#12091F → #1A102B → #24163B
+
+Accent Gradient:
+
+#B6FF00 → #00FF88
+
+---
+
+## Shadows and Glows
+
+Important buttons and active elements should have:
+
+* Neon green glow
+* Soft shadow
+* Slight scale animation on hover
+
+Glow Example:
+
+Color: #B6FF00
+Opacity: 0.25
+Blur Radius: 20-40
+
+Never use harsh shadows.
+
+---
+
+## Todo App Styling
+
+Active tasks:
+
+* Acid green indicators
+* Subtle glow
+
+Completed tasks:
+
+* Lower opacity
+* Strikethrough
+* Smooth fade animation
+
+Floating Action Button:
+
+* Circular
+* Neon green gradient
+* Strong glow effect
+
+Task Cards:
+
+* Dark violet surface
+* Rounded radius 20+
+* Hover elevation
+* Animated borders
+
+Statistics:
+
+* Progress rings
+* Gradient charts
+* Animated counters
+
+---
+
+## Animation Style
+
+Animations should feel futuristic.
+
+Preferred animations:
+
+* Fade + Slide
+* Scale transitions
+* Hero animations
+* Animated gradients
+* Smooth page transitions
+
+Duration:
+
+Fast: 150ms
+Normal: 250ms
+Slow: 350ms
+
+Avoid:
+
+* Bounce animations
+* Excessive motion
+* Long delays
+
+---
+
+## Final Goal
+
+The application should look like a premium startup product that could realistically be featured on Dribbble, Behance, or in the App Store design showcase.
