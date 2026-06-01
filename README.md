@@ -1,6 +1,6 @@
 # Neon Tasks
 
-Премиальное todo-приложение на Flutter в cyber-dark стиле: неоновые акценты, glassmorphism, анимации и локальное сохранение задач.
+A premium Flutter todo app with a cyber-dark UI: neon accents, glassmorphism, smooth animations, and local task persistence.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-3.13+-02569B?logo=flutter&logoColor=white" alt="Flutter" />
@@ -11,73 +11,73 @@
 
 ---
 
-## О проекте
+## About
 
-**Neon Tasks** — менеджер задач с современным UI в духе cyberpunk / premium SaaS: тёмный фиолетовый фон, acid green акценты, плавные переходы и удобные жесты.
+**Neon Tasks** is a task manager with a modern cyberpunk / premium SaaS look: deep violet backgrounds, acid green accents, fluid transitions, and intuitive gestures.
 
 ---
 
-## Скриншоты
+## Screenshots
 
 <p align="center">
-  <img src="docs/screenshots/home-mobile.png" alt="Главный экран" width="280" />
+  <img src="docs/screenshots/home-mobile.png" alt="Home screen" width="280" />
   &nbsp;&nbsp;
-  <img src="docs/screenshots/add-task.png" alt="Добавление задачи" width="280" />
+  <img src="docs/screenshots/add-task.png" alt="Add task" width="280" />
 </p>
 
-|           Главный экран            |        Добавление задачи        |
-| :--------------------------------: | :-----------------------------: |
+| Home screen | Add task |
+| :---------: | :------: |
 | `docs/screenshots/home-mobile.png` | `docs/screenshots/add-task.png` |
 
 ---
 
-## Возможности
+## Features
 
-- Создание, редактирование и удаление задач
-- Отметка выполнения с анимацией
-- Поиск, фильтры (все / активные / готовые) и сортировка
-- Свайп вправо: «Готово» и «Удалить»
-- Перетаскивание для изменения порядка (режим «Вручную»)
-- Локальное хранение (`SharedPreferences`)
-- Адаптивная вёрстка: mobile, tablet, desktop, web
-- Cyber UI: градиенты, glassmorphism, neon glow
-
----
-
-## Стек технологий
-
-| Категория   | Технологии                                                                                                           |
-| ----------- | -------------------------------------------------------------------------------------------------------------------- |
-| Framework   | [Flutter](https://flutter.dev)                                                                                       |
-| State       | [Provider](https://pub.dev/packages/provider)                                                                        |
-| Storage     | [shared_preferences](https://pub.dev/packages/shared_preferences)                                                    |
-| UI          | [google_fonts](https://pub.dev/packages/google_fonts), [flutter_slidable](https://pub.dev/packages/flutter_slidable) |
-| Архитектура | Clean Architecture (domain / data / presentation)                                                                    |
+- Create, edit, and delete tasks
+- Animated completion toggle
+- Search, filters (all / active / completed), and sorting
+- Swipe right: **Done** and **Delete**
+- Drag-and-drop reordering (manual sort mode)
+- Local storage via `SharedPreferences`
+- Responsive layout: mobile, tablet, desktop, and web
+- Cyber UI: gradients, glassmorphism, neon glow
 
 ---
 
-## Быстрый старт
+## Tech stack
 
-### Требования
+| Category     | Technologies                                                                                                         |
+| ------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Framework    | [Flutter](https://flutter.dev)                                                                                       |
+| State        | [Provider](https://pub.dev/packages/provider)                                                                        |
+| Storage      | [shared_preferences](https://pub.dev/packages/shared_preferences)                                                    |
+| UI           | [google_fonts](https://pub.dev/packages/google_fonts), [flutter_slidable](https://pub.dev/packages/flutter_slidable) |
+| Architecture | Clean Architecture (domain / data / presentation)                                                                    |
+
+---
+
+## Getting started
+
+### Requirements
 
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) **≥ 3.13**
 - Dart **≥ 3.1**
 
-### Установка
+### Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/todo_app.git
-cd todo_app
+git clone https://github.com/amantobae/todo-app.git
+cd todo-app
 flutter pub get
 ```
 
-### Запуск
+### Run
 
 ```bash
 flutter run
 ```
 
-### Тесты
+### Tests
 
 ```bash
 flutter analyze
@@ -86,26 +86,26 @@ flutter test
 
 ---
 
-## Структура проекта
+## Project structure
 
 ```
 lib/
-├── core/           # тема, градиенты, общие виджеты
-├── domain/         # сущности и контракты репозиториев
-├── data/           # модели, datasource, реализация репозитория
-├── presentation/   # экраны, виджеты, контроллер
+├── core/           # theme, gradients, shared widgets
+├── domain/         # entities and repository contracts
+├── data/           # models, datasource, repository impl
+├── presentation/   # screens, widgets, controller
 ├── app.dart
 └── main.dart
 ```
 
 ---
 
-## Лицензия
+## License
 
-MIT — см. [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE).
 
 ---
 
-## Автор
+## Author
 
 **Your Name** · [@amantobae](https://github.com/amantobae)
