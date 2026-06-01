@@ -25,8 +25,8 @@
   <img src="docs/screenshots/add-task.png" alt="Добавление задачи" width="280" />
 </p>
 
-| Главный экран | Добавление задачи |
-|:---:|:---:|
+|           Главный экран            |        Добавление задачи        |
+| :--------------------------------: | :-----------------------------: |
 | `docs/screenshots/home-mobile.png` | `docs/screenshots/add-task.png` |
 
 ---
@@ -46,13 +46,13 @@
 
 ## Стек технологий
 
-| Категория | Технологии |
-|-----------|------------|
-| Framework | [Flutter](https://flutter.dev) |
-| State | [Provider](https://pub.dev/packages/provider) |
-| Storage | [shared_preferences](https://pub.dev/packages/shared_preferences) |
-| UI | [google_fonts](https://pub.dev/packages/google_fonts), [flutter_slidable](https://pub.dev/packages/flutter_slidable) |
-| Архитектура | Clean Architecture (domain / data / presentation) |
+| Категория   | Технологии                                                                                                           |
+| ----------- | -------------------------------------------------------------------------------------------------------------------- |
+| Framework   | [Flutter](https://flutter.dev)                                                                                       |
+| State       | [Provider](https://pub.dev/packages/provider)                                                                        |
+| Storage     | [shared_preferences](https://pub.dev/packages/shared_preferences)                                                    |
+| UI          | [google_fonts](https://pub.dev/packages/google_fonts), [flutter_slidable](https://pub.dev/packages/flutter_slidable) |
+| Архитектура | Clean Architecture (domain / data / presentation)                                                                    |
 
 ---
 
@@ -108,4 +108,4 @@ MIT — см. [LICENSE](LICENSE).
 
 ## Автор
 
-**Your Name** · [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+**Your Name** · [@amantobae](https://github.com/amantobae)
