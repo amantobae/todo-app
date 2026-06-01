@@ -22,7 +22,7 @@
 <p align="center">
   <img src="docs/screenshots/home-mobile.png" alt="Главный экран" width="280" />
   &nbsp;&nbsp;
-  <img src="docs/screenshots/add-task" alt="Добавление задачи" width="280" />
+  <img src="docs/screenshots/add-task.png" alt="Добавление задачи" width="280" />
 </p>
 
 |           Главный экран            |        Добавление задачи        |
